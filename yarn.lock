@@ -347,10 +347,29 @@ beanify-autoload@^3.0.11:
   dependencies:
     beanify "^3.0.24"
 
-beanify@^3.0.24, beanify@^3.0.32:
+beanify@^3.0.24:
   version "3.0.32"
   resolved "https://registry.yarnpkg.com/beanify/-/beanify-3.0.32.tgz#3da92281a0a7b5bdb7d26beb976115e21868d6d1"
   integrity sha512-PiUP8XgB/eca92EjIfOoxrfZyOfX6dCNS7IMpmNV536NLLiKvpXbG3eK3yhDF2bA/lu+awwH6dLC4L/WWelzCw==
+  dependencies:
+    ajv "^7.1.1"
+    async "^3.2.0"
+    avvio "^6.2.2"
+    clone "^2.1.2"
+    env-schema "^1.1.0"
+    errio "^1.2.2"
+    extra-function "^0.0.50"
+    fastq "^1.6.0"
+    merge "^2.1.0"
+    nats "^1.3.2"
+    pino "^5.13.5"
+    semver "^7.3.4"
+    super-error "^2.4.0"
+
+beanify@^3.0.33:
+  version "3.0.33"
+  resolved "https://registry.yarnpkg.com/beanify/-/beanify-3.0.33.tgz#0ceccf30b93ec6786015780a11031d6a9fe79faf"
+  integrity sha512-fMhnLwtXCAJFrjEf5r6ucfgbutHlKhZX5iqNCYUcyUOOJyqWexMM90H7q9FIW76vl9yNto2dUtU01cyymPDXHQ==
   dependencies:
     ajv "^7.1.1"
     async "^3.2.0"
